@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Bunny Rabbits';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bunny Rabbits'), local('BunnyRabbits-Regular'),
+        url(http://allfont.ru/cache/fonts/bunny-rabbits_a84fe9aa096c8bb7f95be9538dd640d7.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/bunny-rabbits_a84fe9aa096c8bb7f95be9538dd640d7.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Bunny Rabbits';
+    background: E5E5E5;
+}
+.page_wrapper{
+    max-width: 1280px;
+    width: 100%;
+    min-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page_header{
+    position: absolute;
+    width: 100%;   
+    color: white; 
+}
+.page_main{
+    margin: 0 auto;
+}
+.section_map{
+    display: flex;
+    justify-content: space-between;
+}
+.page_footer{
+   margin: 0 auto; 
+   display: flex;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.9);
+   color: rgba(255, 255, 255, 0.5);
+}
+.footer{
+ 
+    font-family: 'Bunny Rabbits';
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+    width: 100%;
+    height: 100px;
+    font-size: 12px;
+    border-radius: 5px
+}
+
+.main-section{
+    padding: 30px calc(80px-36px);
+}
+
+.main-section__light{
+    background-color: white;
+    color: black;
+    margin: 100px 0px;
+}
+
+.main-section__dark{
+    background-color: #333;
+    color: #fff;
+}
+
+.bg_header{
+    background-image: url('../assets/img/png/header-bg.png');
+    background-repeat: no-repeat no-repeat;
+}
+
+.bg_spec{
+    background-image: url('../assets/img/png/specialtys-bg1.png');
+    background-repeat: no-repeat no-repeat;
+}
+
+.bg_spec1{
+    background-image: url('../assets/img/png/specialtys-bg2.png');
+    background-repeat: no-repeat no-repeat;
+}
+
+.bg_spec2{
+    background-image: url('../assets/img/png/specialtys-bg3.png');
+    background-repeat: no-repeat no-repeat;
+}
+
+

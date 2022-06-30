@@ -1,0 +1,14 @@
+.social-wrapper{
+    left: 75px;
+}
+.ico_fb{
+    background-image: url('/assets/ico/facebook.svg');
+}
+
+.ico_inst{
+    background-image: url('/assets/ico/instagram.svg');
+}
+
+.ico_twit{
+    background-image: url('/assets/ico/twitter.svg');
+}

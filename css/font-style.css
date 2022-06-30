@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Bunny Rabbits';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bunny Rabbits'), local('BunnyRabbits-Regular'),
+        url(http://allfont.ru/cache/fonts/bunny-rabbits_a84fe9aa096c8bb7f95be9538dd640d7.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/bunny-rabbits_a84fe9aa096c8bb7f95be9538dd640d7.ttf) format('truetype');
+}
+
+.h2{
+    font-family: 'Bunny Rabbits';
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.h2__left{
+    color: #000000;
+}
+.h2__right{
+    color: #fff;
+}
+.text1{
+    font-family: 'Bunny Rabbits';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.text1__left{
+    color: #000000;
+}
+.text1__right{
+    color: #fff;
+}
+.text2{
+    font-family: 'Bunny Rabbits';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.text2__left{
+    color: #000000;
+}
+.text2__right{
+    color: #fff;
+}

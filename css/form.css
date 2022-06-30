@@ -1,0 +1,109 @@
+
+
+input[type=text], select, textarea {
+    width: 97%;
+    padding: 10px;
+    background: #E5E5E5;
+    border: 0;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 4px;
+    height: 60px;
+    color: rgba(51, 51, 51, 0.5);
+}
+input[type=email] {
+    width: 97%;
+    padding: 10px;
+    background: #E5E5E5;
+    border: 0;
+    border-radius: 5px;
+    resize: vertical;
+    margin:2px;
+    height: 60px;
+    color: rgba(51, 51, 51, 0.5);
+}
+input[type=date] {
+    width: 97%;
+    padding: 10px;
+    background: #E5E5E5;
+    border: 0;
+    border-radius: 5px;
+    resize: vertical;
+    margin:2px;
+    height: 60px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+input[type=submit] {
+    color: white;
+    padding: 10px;
+    border: none;
+    background: #E8C300;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    width: 97.5%;
+    height: 60px;
+    margin-top:6px;
+}
+
+input[type=submit]:hover {
+    background-color: #e7d272;
+}
+
+.container {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.col-50 {
+    margin: 0 auto;
+    display: flex;
+    float: left;
+    width: 50%;
+    margin-top: 3px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-33 {
+    float: left;
+    width: 400px;
+    margin-top: 3px;
+}
+.container2 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-100 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.col-40 {
+    float: left;
+    justify-content: center; 
+    align-items: center;     
+    margin: 0 auto;
+    width: 46%;
+}
+input[type=text] textarea {
+    width: 110%;
+    padding: 10px;
+    background: #E5E5E5;
+    border: 0;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 5px;
+    height: 150px;
+    color: rgba(51, 51, 51, 0.5);
+}
+.col-text{
+    float: left;
+    padding: 22px 7px;
+}

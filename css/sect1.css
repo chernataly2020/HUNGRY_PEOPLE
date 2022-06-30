@@ -1,0 +1,109 @@
+.section1_wrapper{
+    display: flex;
+    padding: 100px 10px;
+    justify-content: space-between;
+}
+.section1_left{
+    font-family: 'Bunny Rabbits';
+    justify-content: center;
+    text-align: center;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 80px;
+}
+.section1_center{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.section1_right{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 125px;
+}
+
+.section1_caption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    font-family: 'Bunny Rabbits';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section1_name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bunny Rabbits';
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section1_buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-family: 'Bunny Rabbits';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.section1_button{
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    margin: 0px 20px;
+}
+.section1_button__primary{
+    background: #E8C300;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1_button__secondary{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_wrapper{
+}
+.social_item{
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color:black;
+    margin: 10px 0px 
+}
+.sect {
+    width: 100px;
+  }
+
+  .btn_down{
+      margin-top: 80px;
+  }
+
+  .btn_down:hover{
+      opacity: 35%;
+      -webkit-animation: bounce 4s infinite 4s;
+      animation: bounce 4s infinite 4s;
+      -webkit-transition: all .4s ease-in;
+      transition: all .4s ease-in;
+  }
