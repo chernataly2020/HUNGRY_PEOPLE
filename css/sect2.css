@@ -7,7 +7,7 @@
     bottom: 50%;
 }
 .line{
-    background: url(/assets/img/png/Rectangle2.png) no-repeat center center;
+    background: url(../assets/img/png/Rectangle2.png) no-repeat center center;
     width: 59px;
     height: 5px;
     border-radius: 50px;
